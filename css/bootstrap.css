@@ -7,7 +7,7 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
-    font-family: sans-serif;
+    font-family: "Open Sans", sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%
 }
@@ -302,7 +302,7 @@ th {
         border: 1px solid #ddd !important
     }
 }
-
+/* 
 @font-face {
     font-family: 'Glyphicons Halflings';
     src: url(../fonts/glyphicons-halflings-regular.eot);
@@ -1368,7 +1368,7 @@ th {
 
 .glyphicon-menu-up:before {
     content: "\e260"
-}
+} */
 
 * {
     -webkit-box-sizing: border-box;
@@ -1389,26 +1389,26 @@ html {
 }
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", Sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
     background-color: #fff
 }
 
-button,
+/* button,
 input,
 select,
 textarea {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit
-}
+} */
 
-a {
-    color: #337ab7;
+/* a {
+    color:#6C1619;
     text-decoration: none
-}
+} */
 
 a:focus,
 a:hover {
@@ -7682,7 +7682,6 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
