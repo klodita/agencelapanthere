@@ -928,11 +928,7 @@ h4 {
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
-    .social .fa{
-        display:inline-block;
-        border:1px solid red;
-    }
-
+   
     .b-parallax {
         background-attachment: scroll;
     }
