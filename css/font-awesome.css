@@ -3,7 +3,7 @@
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 
-@font-face {
+ @font-face {
     font-family: 'FontAwesome';
     src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
     src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
@@ -19,6 +19,22 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
+
+.fa-twitter:before {
+    content: "\f099"
+}
+.fa-facebook:before {
+    content: "\f09a"
+}
+.fa-dribbble:before {
+    content: "\f17d"
+}
+.fa-instagram:before {
+    content: "\f16d"
+}
+
+
+/* 
 
 .fa-lg {
     font-size: 1.33333333em;
@@ -799,14 +815,9 @@
     content: "\f098"
 }
 
-.fa-twitter:before {
-    content: "\f099"
-}
+
 
 .fa-facebook-f:before,
-.fa-facebook:before {
-    content: "\f09a"
-}
 
 .fa-github:before {
     content: "\f09b"
@@ -1575,9 +1586,7 @@
     content: "\f16c"
 }
 
-.fa-instagram:before {
-    content: "\f16d"
-}
+
 
 .fa-flickr:before {
     content: "\f16e"
@@ -1635,9 +1644,6 @@
     content: "\f17c"
 }
 
-.fa-dribbble:before {
-    content: "\f17d"
-}
 
 .fa-skype:before {
     content: "\f17e"
@@ -3041,4 +3047,4 @@
     margin: 0;
     overflow: visible;
     clip: auto
-}
+} */
