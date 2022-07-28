@@ -1494,7 +1494,7 @@ hr {
     cursor: pointer
 }
 
-.h1,
+/* .h1,
 .h2,
 .h3,
 .h4,
@@ -1539,7 +1539,7 @@ h6 small {
     font-weight: 400;
     line-height: 1;
     color: #777
-}
+} */
 
 .h1,
 .h2,
@@ -1596,10 +1596,10 @@ h1 {
     font-size: 36px
 }
 
-.h2,
+/* .h2,
 h2 {
     font-size: 30px
-}
+} */
 
 .h3,
 h3 {
@@ -1621,9 +1621,9 @@ h6 {
     font-size: 12px
 }
 
-p {
+/* p {
     margin: 0 0 10px
-}
+} */
 
 .lead {
     margin-bottom: 20px;
