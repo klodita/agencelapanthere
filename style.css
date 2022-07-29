@@ -14,7 +14,7 @@ button {
 }
 
 nav a{
-    font-size:30px;
+    font-size:20px;
     font-weight: bold;
 }
 nav a:hover
@@ -311,7 +311,7 @@ a:hover {
     width: 100%;
     font-size:50px;
     font-weight: bolder;
-    text-shadow: #772908 1px 0 10px;
+    /* text-shadow: #772908 1px 0 10px; */
 }
 
 .navbar {
@@ -328,9 +328,14 @@ a:hover {
     line-height: 44px;
 }
 
-.navbar-brand img {
+/* .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
+    display: inline;
+} */
+.navbar-brand img {
+    max-height: 200px;
+    margin: 32px 5px 38px 0;
     display: inline;
 }
 
@@ -687,9 +692,9 @@ label
     max-width: 1000px;
 }
 
-.hero-bloc-text {
+/* .hero-bloc-text {
     font-size: 8px;
-}
+} */
 
 /* .hero-bloc-text-sub {
     font-size: 36px;
@@ -706,7 +711,7 @@ label
 }
 
 p {
-    font-size: 17px;
+    font-size: 20px;
 }
 
 
@@ -725,10 +730,7 @@ p {
     font-weight: 700;
 }
 
-.social {
-    max-width: 400px;
-    margin: auto auto auto auto;
-}
+
 
 h2 {
     font-size:30px;
@@ -741,7 +743,7 @@ h2 {
 }
 
 h3 {
-    font-size: 17px;
+    font-size:20px;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -771,8 +773,9 @@ h4 {
 }
 
 .reseaux-white{
-    font-size:18px;
-    color:white;
+    font-size:20px;
+    font-weight: bolder;
+    color:#401619;
     text-transform: uppercase;
     margin-bottom: 2vw;
 }
@@ -823,9 +826,9 @@ margin-bottom: 2vw;
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
+/* .bgc-dark-slate-blue {
     background-color: #364577;
-}
+} */
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
@@ -839,8 +842,8 @@ margin-bottom: 2vw;
 
 .tc-white2 {
     font-size: 50px;
-    color: #F3976C!important;
-    text-shadow: #772908 1px 0 10px;
+    color:#401619!important;
+    text-shadow: #F3976C 1px 0 10px;
 }
 
 .btn-atomic-tangerine {
@@ -886,9 +889,27 @@ margin-bottom: 2vw;
     background-image: url("img/agence-la-panthere.webp");
 }
 
+
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
+
+
+.social {
+    width:60%;
+    display: flex;
+    align-items: center;
+    margin: auto auto auto auto;
+    padding-left: -10px;
+}
+
+.social a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -959,6 +980,13 @@ margin-bottom: 2vw;
         overflow-x: hidden;
         position: relative;
     }
+
+    .navbar-brand img {
+        max-height: 200px;
+        margin: 0 5px 0 0;
+        display: inline;
+    }
+
     h1,
     h2,
     h3,
@@ -1167,12 +1195,75 @@ margin-bottom: 2vw;
     #lightbox-modal .modal-dialog img {
         padding-bottom:2vw;
     }
-    
+
     .snapshot-lb .lightbox-caption {
         font-size: 15px;
         left:3vw;
         color: rgba(0, 0, 0, .5);
         background: none;
+    }
+
+    /* media pour les élément du titre et bouton dans la dernière bannière et du footer */
+    @media (max-width:425px){
+
+        /* titre dans la banière contact */
+        .tc-white2 {
+            font-size: 40px;
+        }
+
+        /* bouton contact */
+   .cta-hero {
+       font-size: 15px;
+       }
+   
+       /* réseaux social */
+       .reseaux-white {
+           font-size:15px;
+           margin-bottom: 5vw;
+       }
+   
+       .social {
+           width:60%;
+           display: flex;
+           align-self: center;
+           justify-content: center;
+           margin: auto auto auto auto;
+           padding-left:2vw;
+           position: relative;
+           left: -1vw;
+       }
+       
+       .icon-md{
+           font-size: 30px!important;
+       }
+   }
+   
+    @media (min-width:426px) and (max-width:767px){
+         /* bouton contact */
+    .cta-hero {
+        font-size:18px;
+        }
+    
+        /* réseaux social */
+        .reseaux-white {
+            font-size:18px;
+            margin-bottom: 5vw;
+        }
+    
+        .social {
+            width:80%;
+            display: flex;
+            align-self: center;
+            justify-content: center;
+            margin: auto auto auto auto;
+            padding-left:3vw;
+            position: relative;
+            left:-1vw;
+        }
+        
+        .icon-md{
+            font-size:35px!important;
+        }
     }
 
     @media (min-width:511px) and (max-width:767px){
@@ -1189,5 +1280,16 @@ margin-bottom: 2vw;
             color: rgba(0, 0, 0, .5);
             background: none;
         }
+
+        .social {
+            width:70%;
+            padding-left:2vw;
+        }
+
+        .icon-md{
+            font-size:40px!important;
+        }
     }
+
+
 }
