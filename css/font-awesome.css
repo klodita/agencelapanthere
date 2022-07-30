@@ -32,7 +32,9 @@
 .fa-instagram:before {
     content: "\f16d"
 }
-
+.fa-chevron-up:before {
+    content: "\f077"
+}
 
 /* 
 
@@ -685,9 +687,6 @@
     content: "\f076"
 }
 
-.fa-chevron-up:before {
-    content: "\f077"
-}
 
 .fa-chevron-down:before {
     content: "\f078"
