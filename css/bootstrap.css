@@ -7508,7 +7508,7 @@ button.close {
     line-height: 1
 }
 
-@media all and (transform-3d),
+/* @media all and (transform-3d),
 (-webkit-transform-3d) {
     .carousel-inner>.item {
         -webkit-transition: -webkit-transform .6s ease-in-out;
@@ -7538,7 +7538,7 @@ button.close {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0)
     }
-}
+} */
 
 .carousel-inner>.active,
 .carousel-inner>.next,
