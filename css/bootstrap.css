@@ -231,7 +231,7 @@ th {
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
-@media print {
+/* @media print {
     *,
     :after,
     :before {
@@ -301,7 +301,7 @@ th {
     .table-bordered th {
         border: 1px solid #ddd !important
     }
-}
+} */
 /* 
 @font-face {
     font-family: 'Glyphicons Halflings';
@@ -7508,7 +7508,7 @@ button.close {
     line-height: 1
 }
 
-@media all and (transform-3d),
+/* @media all and (transform-3d),
 (-webkit-transform-3d) {
     .carousel-inner>.item {
         -webkit-transition: -webkit-transform .6s ease-in-out;
@@ -7538,7 +7538,7 @@ button.close {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0)
     }
-}
+} */
 
 .carousel-inner>.active,
 .carousel-inner>.next,
